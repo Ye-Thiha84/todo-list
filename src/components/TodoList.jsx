@@ -131,7 +131,7 @@ export default function TodoList() {
             type="submit"
             className="px-4 py-2 bg-black text-white hover:bg-gray-800"
           >
-            Add
+            Add New Task
           </button>
         </form>
       </div>
