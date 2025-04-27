@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TodoList from '../components/TodoList.jsx';
+import '../styles/global.css'; // Add this import
+---
+
+<Layout title="Todo List">
+  <TodoList client:load />
+</Layout>

@@ -1,0 +1,14 @@
+/* Import the JetBrains Mono font */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #ffffff;
+  color: #000000;
+}
